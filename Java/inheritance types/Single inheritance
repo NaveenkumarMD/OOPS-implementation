@@ -1,0 +1,18 @@
+class Animal{
+    int age;
+    int lifetime;
+    void sayHello(){
+        System.out.println("Hello");
+    }
+}
+class Dog extends Animal{
+    void sayHello(){
+        System.out.println("Woof");
+    }
+}
+class SingleInheritance extends Animal{
+    public static void main(String[] args) {
+        Dog d=new Dog();
+        d.sayHello();
+    }
+}

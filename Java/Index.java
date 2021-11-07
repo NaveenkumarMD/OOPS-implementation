@@ -1,3 +1,5 @@
+package Java;
+
 class Vehicle{
     int reg_no;
     String color;

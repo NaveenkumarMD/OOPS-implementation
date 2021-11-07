@@ -1,3 +1,5 @@
+package Java;
+
 class Animal {
     String name;
     Animal(String name) {
